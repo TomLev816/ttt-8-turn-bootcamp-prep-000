@@ -29,6 +29,6 @@ def input_to_index(user_input)
   return converted_input
 end
 
-def turn()
-
+def turn(board)
+  puts "Please enter 1-9"
 end

@@ -14,6 +14,12 @@ def valid_move?(board, index)
   end
 end
 
+def position_taken?(board,index)
+  if board[index] == "" || board[index] == " " || board[index] == nil
+    return false
+  end
+end
+
 def move(board, index, value = "X")
   board[index] = value
 end
